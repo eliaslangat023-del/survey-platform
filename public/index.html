@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>Survey Wallet Test</title>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-functions.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>Survey Wallet Dashboard</h1>
+  <div>
+    <button onclick="deposit()">Deposit 200 KSh</button>
+    <button onclick="withdraw()">Withdraw 100 KSh</button>
+    <button onclick="accessSurvey()">Access Survey Category 1</button>
+  </div>
+  <div id="output"></div>
+</body>
+</html>
